@@ -1,0 +1,239 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.Ad_Nav {
+  background-color: #e5e5e5;
+  height: 60px;
+  width: auto;
+}
+
+#Ad_Icon {
+  width: 92px;
+  height: 33px;
+  padding: 0 20px 0 15px;
+  display: inline-block;
+  justify-content: flex-start;
+  font-size: 25px;
+  font-weight: 600;
+  align-items: center;
+  text-align: left;
+  margin: 10px;
+}
+
+.Grid_Container {
+  width: auto;
+  height: 300px;
+  margin: 40px 25px;
+}
+
+.Grid_box1 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 200px 401px auto;
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.Grid_Separtor {
+  border-top: 1px solid #e5e5e5;
+  margin: 18px;
+}
+
+.column_one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.column_two {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.column_three {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/* Advanced Search */
+#Q1,
+#Q2,
+#Q3,
+#Q4,
+#Q5,
+#Q6 {
+  width: 80%;
+  text-align: left;
+  border-radius: 1px;
+  border: 1px solid grey;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+.Ad_name {
+  text-align: left;
+  font-size: 0.75rem;
+  vertical-align: center;
+}
+
+.Ad_name_title {
+  font-size: 1rem;
+}
+
+.Ad_Description {
+  font-size: 0.7rem;
+  text-align: left;
+  vertical-align: center;
+}
+
+.Ad_Des_title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.Ad_ranging {
+  display: inline-block;
+  width: 35%;
+}
+
+.AD_rang1 {
+  display: inline-flex;
+  justify-content: left;
+}
+
+.AD_rang2 {
+  display: inline-flex;
+  justify-content: right;
+}
+
+#Ad_search_button {
+  border: 1px solid #3079ed;
+  color: white;
+  background-color: #4d90fe;
+  border-radius: 2px;
+  width: 120px;
+  height: 30px;
+  font-size: 0.7rem;
+  padding: 0 12px;
+  margin: 10px 0;
+}
+
+/* Advanced Search  End*/
+
+.Ad_Title {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  text-decoration: none;
+  padding: 25px;
+  color: #d93025;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 1.25rem;
+  text-rendering: auto;
+  padding: 2px 24px 2px 24px;
+}
+
+.big_box {
+  width: 590px;
+  margin: 0 auto;
+  display: block;
+}
+
+#Image_button,
+#Advanced_button {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main {
+  width: auto;
+}
+
+.Google_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px;
+  padding: 10px;
+  max-height: var(--ntp-logo-height);
+  max-width: 100%;
+}
+
+form {
+  text-align: center;
+  border-radius: 20px;
+}
+
+#Search_bar {
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height: 30px;
+  width: auto;
+  margin: 20px;
+  max-width: 588px;
+  width: 584px;
+  padding-top: 6px;
+}
+
+.Search_bottons {
+  padding-top: 18px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.Search_bottons #Search_button,
+#Lucky {
+  display: block;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 0 16px;
+  border: 1px;
+  margin: 11px 4px;
+  height: 36px;
+  min-width: 54px;
+}
+
+#Image_button:hover,
+#Advanced_button:hover {
+  text-decoration: underline;
+}
+
+#Search_button:hover,
+#Lucky:hover,
+#Search_bar:hover,
+#Ad_search_button:hover {
+  border-color: transparent;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, -0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  cursor: pointer;
+}
+
+#Search_bar:hover {
+  cursor: text;
+}

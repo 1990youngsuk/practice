@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google_Advanced_Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <Nav style="display:flex; justify-content: flex-start; background-color:#f1f1f1; height: 60px; " >
+        <a href="Google_Search.html" id="Ad_Icon">
+        <span style="color: blue;">G</span><span style="color: red;">o</span><span style="color:orange;">o</span><span style="color: blue;">g</span><span style="color:green;">l</span><span style="color: red;">e</span>
+        </a>
+    </Nav>
+
+    <main>
+        <div class="Ad_Title">Advanced Search</div>
+
+        
+    <form action="https://google.com/search" method="get" name="f" >
+        <div class="Grid_Container">
+            <div class="Grid_box1">                
+                <div class="Ad_name Ad_name_title">Find pages with...</div>
+                <div></div>
+                <div class="Ad_Description Ad_Des_title">To do this in the search box.
+                </div>
+                <div class="Ad_name">all these words: </div>
+                <div>
+                    <div>
+                        <input type="text" value autofocus="autofocus" id="Q1" name="as_q">
+                    </div>
+                </div>
+                <div class="Ad_Description">Find pages in the language that you select</div>
+                <div class="Ad_name">this exact word or phrase:</div>
+                <div>
+                    <div>
+                        <input name="as_epq" value id="Q2" type="text">
+                    </div>
+                </div>
+                <div class="Ad_Description">Put exact words in quotes: "rat terrier"</div>
+                <div class="Ad_name">any of these words:</div>
+                <div>
+                    <input type="text" value id="Q3" name="as_op">
+                </div>
+                <div class="Ad_Description">Type OR between all the words you want: miniature OR standard</div>
+                <div class="Ad_name">none of these words:
+                </div>
+                <div>
+                    <input type="text" value id="Q4" name="as_eq">
+                </div>
+                <div class="Ad_Description">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </div>
+                <div class="Ad_name">numbers ranging from:
+                </div>
+                <div>
+                    <div class="Ad_ranging AD_rang1">
+                        <input type="text" value id="Q5" name="as_nlo">
+                    </div>
+                    <span>to</span>
+                    <div class="Ad_ranging AD_rang2">
+                        <input type="text" value id="Q6" name="as_nhi">
+                    </div>
+                </div>
+                <div class="Ad_Description">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+                </div>
+                
+                <div></div>
+                <div>
+                    <input type="hidden" value name="tbs">
+                    <input type="submit" value="Advanced Search" id="Ad_search_button">
+                </div>
+                <div></div>
+            </div>
+
+
+            <div class="Grid_Separtor">
+
+                
+                <div></div>
+            </div>
+        </div>
+    </form> 
+
+    </main>
+    
+</body>
+</html>
